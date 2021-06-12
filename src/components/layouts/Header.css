@@ -1,0 +1,46 @@
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 1800px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo-title {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  width: 552px;
+}
+
+.virus-logo {
+  background: url("../../images/virus.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  width: 352px;
+  height: 84px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 84px;
+  color: #000000;  
+}
+
+.search-box {
+  display: grid;
+  justify-items: end;
+  position: relative;
+}
+
+.search-box::before {
+  content: url("../../images/loop.png");
+  position: absolute;
+  left: 876px;
+  top: 28px;
+}
